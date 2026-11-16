@@ -1,148 +1,84 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f2e9">
-  <title>Undangan Pernikahan Malik & Kiki</title>
-  <meta name="description" content="Undangan pernikahan Malik & Kiki, 22 Maret 2027.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    :root{--ivory:#f7f2e9;--cream:#eee5d7;--gold:#b99a67;--ink:#51483e;--muted:#897e70}
-    *{box-sizing:border-box} html{scroll-behavior:smooth}
-    body{margin:0;background:var(--ivory);color:var(--ink);font-family:"DM Sans",sans-serif;font-weight:300}
-    button,a{font:inherit} .serif{font-family:"Cormorant Garamond",serif}
-    .cover{min-height:100svh;display:grid;place-items:center;padding:28px 18px;position:relative;overflow:hidden;background:linear-gradient(135deg,#f9f5ee,#eee4d6)}
-    .cover:before,.cover:after{content:"";position:absolute;width:260px;height:260px;border:1px solid #c9b38e66;border-radius:50%;pointer-events:none}
-    .cover:before{top:-150px;left:-110px}.cover:after{right:-150px;bottom:-150px}
-    .frame{width:min(100%,440px);min-height:760px;max-height:calc(100svh - 40px);position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:28px 22px 24px;border:1px solid #c7ad7b;outline:1px solid #c7ad7b55;outline-offset:6px;background:#f7f2e9eF;box-shadow:0 18px 55px #5e4a2b18}
-    .eyebrow{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin:3px 0 15px}
-    .ornament{color:var(--gold);font-size:22px;letter-spacing:.25em;margin-bottom:10px}
-    .cover-photo{width:min(72%,250px);height:330px;object-fit:cover;object-position:center 30%;border-radius:150px 150px 4px 4px;border:5px solid #fffaf2;box-shadow:0 8px 25px #55452a20}
-    .invite-label{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:20px 0 5px}
-    h1{font-size:clamp(46px,12vw,66px);line-height:.9;font-weight:500;margin:8px 0;color:#756044}
-    .amp{font-size:31px;color:var(--gold);font-style:italic;margin:5px 0}
-    .date{font-size:12px;letter-spacing:.18em;color:var(--muted);margin:13px 0 20px}
-    .open-btn{border:0;background:#a88b5d;color:white;padding:13px 28px;letter-spacing:.12em;text-transform:uppercase;font-size:10px;cursor:pointer;transition:.2s}
-    .open-btn:hover{background:#806b49;transform:translateY(-2px)}
-    .guest{font-size:11px;color:var(--muted);margin:0 0 15px}
-    .content{display:none}.content.show{display:block;animation:fade .8s ease}
-    @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-    section{padding:76px 20px;text-align:center}.inner{max-width:760px;margin:auto}
-    .kicker{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold)}
-    h2{font:500 clamp(36px,8vw,52px)/1 "Cormorant Garamond",serif;color:#756044;margin:13px 0 18px}
-    p{line-height:1.9;font-size:14px;color:var(--muted)}
-    .couple-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px}
-    .couple-grid img{width:100%;height:310px;object-fit:cover;object-position:center 25%;border-radius:150px 150px 3px 3px}
-    .couple-grid h3{font:500 30px "Cormorant Garamond",serif;margin:13px 0 3px;color:#756044}
-    .event{background:#efe7da}
-    .event-card{border:1px solid #cbb78f;padding:28px 18px;margin:14px auto;max-width:460px}
-    .event-card h3{font:500 32px "Cormorant Garamond",serif;color:#756044;margin:5px}
-    .countdown{display:flex;justify-content:center;gap:12px;margin:28px 0}
-    .countdown div{min-width:62px;padding:12px 8px;border:1px solid #d5c4a5}
-    .countdown strong{display:block;font:500 29px "Cormorant Garamond",serif;color:#756044}
-    .countdown span{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-    .map-btn{display:inline-block;margin-top:12px;padding:12px 20px;border:1px solid var(--gold);color:#806b49;text-decoration:none;font-size:11px;letter-spacing:.1em}
-    .gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
-    .gallery img{width:100%;height:280px;object-fit:cover;border-radius:2px}
-    footer{padding:38px 20px;text-align:center;background:#eae0d1;color:#8a7961;font:italic 25px "Cormorant Garamond",serif}
-    @media(max-height:780px){.frame{min-height:0;max-height:none}.cover-photo{height:260px;width:210px}}
-    @media(max-width:520px){.couple-grid{gap:12px}.couple-grid img{height:235px}.gallery img{height:210px}section{padding:58px 18px}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f1e8">
+<title>Undangan Pernikahan Malik & Kiki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f7f1e8;--paper:#fffdf9;--gold:#b8955b;--gold2:#d9c49a;--ink:#514638;--muted:#887b6a;--line:#e8ddcb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Poppins, sans-serif;font-size:14px;line-height:1.8}button,input,textarea{font:inherit}button{cursor:pointer}.serif{font-family:'Cormorant Garamond',serif}.shell{max-width:760px;margin:auto;background:var(--paper);min-height:100vh;box-shadow:0 0 50px #6f5d3d12}.cover{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 24px;position:relative;overflow:hidden;background:linear-gradient(#fffaf0d9,#fffaf0e8),url('assets/foto-cover.jpeg') center/cover no-repeat}.cover:before,.cover:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #c7aa78;border-radius:50%;opacity:.45}.cover:before{top:-120px;left:-90px}.cover:after{bottom:-120px;right:-90px}.cover-inner{position:relative;z-index:1;max-width:540px}.eyebrow{letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-size:10px}.cover h1{font-size:clamp(54px,10vw,82px);line-height:.9;font-weight:500;color:#8e7046;margin:24px 0}.amp{font-size:32px;color:var(--gold2);display:block;margin:8px}.cover-date{letter-spacing:2px;color:var(--muted);margin:20px 0}.guest{margin:24px auto;padding:14px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);max-width:360px}.guest strong{display:block;font-weight:500;color:#8e7046}.btn{border:1px solid var(--gold);background:var(--gold);color:white;padding:11px 22px;border-radius:2px;letter-spacing:1px;font-size:11px;text-transform:uppercase}.btn.outline{background:transparent;color:var(--gold)}.section{padding:70px 26px;text-align:center}.section:nth-child(even){background:#faf6ef}.kicker{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:10px}.section h2{font:500 46px/1.05 'Cormorant Garamond',serif;color:#8e7046;margin:12px 0 24px}.intro{max-width:540px;margin:0 auto;color:var(--muted)}.names{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:580px;margin:36px auto 0}.person{padding:22px 12px;border:1px solid var(--line);background:#fffdfa}.person h3{font:600 34px/1 'Cormorant Garamond',serif;color:#98794c;margin:8px}.person p{font-size:12px;color:var(--muted)}.ornament{color:var(--gold2);font-size:28px;margin:18px}.event-card{max-width:520px;margin:24px auto;padding:30px 20px;border:1px solid var(--line);background:#fffdfa}.event-card h3{font:500 34px 'Cormorant Garamond',serif;color:#98794c;margin:0}.date-big{font:500 27px 'Cormorant Garamond',serif;margin:12px}.address{font-size:13px;color:var(--muted)}.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}.countdown{display:flex;justify-content:center;gap:12px;margin:22px auto}.countdown div{min-width:65px;padding:10px;border:1px solid var(--line);background:#fff}.countdown b{display:block;font:30px 'Cormorant Garamond',serif;color:#98794c}.countdown small{font-size:9px;color:var(--muted);letter-spacing:1px}.form{max-width:520px;margin:22px auto;text-align:left}.form label{display:block;font-size:12px;margin:12px 0 5px;color:var(--muted)}.form input,.form select,.form textarea{width:100%;border:1px solid var(--line);background:#fffdfa;padding:12px;color:var(--ink);outline:none}.form textarea{min-height:95px;resize:vertical}.form .btn{margin-top:14px;width:100%}.note{font-size:11px;color:#9b8d7a}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:560px;margin:25px auto}.gallery img{width:100%;height:250px;object-fit:cover;background:#eee5d7}.gift{max-width:500px;margin:20px auto;padding:24px;border:1px solid var(--line);background:#fffdfa}.footer{padding:38px 20px;text-align:center;background:#f4ecdf;color:var(--muted);font-size:11px}.modal{display:none;position:fixed;inset:0;background:#20190fcc;z-index:10;align-items:center;justify-content:center;padding:18px}.modal.show{display:flex}.modal-box{width:min(440px,100%);background:var(--paper);padding:28px;text-align:center;position:relative}.close{position:absolute;right:14px;top:10px;border:0;background:none;font-size:24px;color:var(--muted)}.bank{border:1px solid var(--line);padding:14px;margin:12px 0;background:#fff}.bank b{color:#98794c}.copy{border:1px solid var(--gold);background:transparent;color:#98794c;padding:6px 12px;font-size:11px;margin-top:8px}.music{position:fixed;bottom:16px;right:16px;z-index:5;border:1px solid var(--gold);border-radius:50%;width:46px;height:46px;background:#fffaf0;color:#98794c;box-shadow:0 3px 14px #0002}.hidden{display:none!important}
+@media(max-width:520px){.names{grid-template-columns:1fr}.section{padding:56px 20px}.gallery img{height:190px}.cover{min-height:94vh}}
+</style>
 </head>
 <body>
-  <main>
-    <section class="cover" id="cover">
-      <div class="frame">
-        <div class="eyebrow">The Wedding Of</div>
-        <div class="ornament">✦ ❧ ✦</div>
-        <img class="cover-photo" src="assets/foto-cover.jpeg" alt="Foto Malik dan Kiki">
-        <div class="invite-label">You are invited to celebrate</div>
-        <h1 class="serif">Malik</h1>
-        <div class="amp serif">&</div>
-        <h1 class="serif">Kiki</h1>
-        <div class="date">22 MARET 2027</div>
-        <p class="guest">Kepada Yth. Bapak/Ibu/Saudara/i</p>
-        <button class="open-btn" id="openInvitation">Buka Undangan</button>
-      </div>
-    </section>
-
-    <div class="content" id="content">
-      <section>
-        <div class="inner">
-          <div class="kicker">Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
-          <h2>Dengan memohon rahmat dan ridho Allah SWT</h2>
-          <p>Kami bermaksud menyelenggarakan acara pernikahan kami. Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
-          <div class="ornament">❧ ✦ ❧</div>
-          <div class="couple-grid">
-            <div>
-              <img src="assets/foto-pasangan-1.jpeg" alt="Malik dan Kiki">
-              <h3>Malik Abdul Azis</h3>
-              <p>Putra dari<br>Nama ayah & nama ibu</p>
-            </div>
-            <div>
-              <img src="assets/foto-cover.jpeg" alt="Kiki">
-              <h3>Kiki Istikomah</h3>
-              <p>Putri dari<br>Nama ayah & nama ibu</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="event">
-        <div class="inner">
-          <div class="kicker">Save The Date</div>
-          <h2>Waktu & Tempat</h2>
-          <div class="countdown" id="countdown">
-            <div><strong id="days">--</strong><span>Hari</span></div>
-            <div><strong id="hours">--</strong><span>Jam</span></div>
-            <div><strong id="minutes">--</strong><span>Menit</span></div>
-            <div><strong id="seconds">--</strong><span>Detik</span></div>
-          </div>
-          <div class="event-card">
-            <div class="kicker">Hari Pernikahan</div>
-            <h3>Senin, 22 Maret 2027</h3>
-            <p>Jam acara akan diinformasikan kemudian.</p>
-            <p>Dusun Kedungsalam RT 03/02, Desa Cikedondong,<br>Kecamatan Bantarsari, Kabupaten Cilacap</p>
-            <a class="map-btn" href="https://maps.app.goo.gl/1m3yfLekjUPpNRtNA" target="_blank" rel="noopener">BUKA PETUNJUK ARAH ↗</a>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="inner">
-          <div class="kicker">Our Moments</div>
-          <h2>Galeri</h2>
-          <div class="gallery">
-            <img src="assets/foto-pasangan-1.jpeg" alt="Momen Malik dan Kiki">
-            <img src="assets/foto-cover.jpeg" alt="Momen Malik dan Kiki">
-          </div>
-        </div>
-      </section>
-      <footer>Merupakan kebahagiaan bagi kami atas doa dan kehadiran Anda.</footer>
-    </div>
-  </main>
-  <script>
-    const openButton = document.getElementById('openInvitation');
-    openButton.addEventListener('click', () => {
-      document.getElementById('content').classList.add('show');
-      document.getElementById('content').style.display = 'block';
-      document.getElementById('content').scrollIntoView({behavior:'smooth'});
-    });
-    const weddingDate = new Date('2027-03-22T08:00:00+07:00').getTime();
-    function updateCountdown(){
-      const distance = weddingDate - Date.now();
-      const values = {
-        days: Math.max(0, Math.floor(distance / 86400000)),
-        hours: Math.max(0, Math.floor(distance / 3600000) % 24),
-        minutes: Math.max(0, Math.floor(distance / 60000) % 60),
-        seconds: Math.max(0, Math.floor(distance / 1000) % 60)
-      };
-      Object.entries(values).forEach(([id,value]) => document.getElementById(id).textContent = String(value).padStart(2,'0'));
-    }
-    updateCountdown(); setInterval(updateCountdown,1000);
-  </script>
-</body>
-</html>
+<main class="shell">
+<section class="cover" id="cover">
+ <div class="cover-inner">
+  <div class="eyebrow">The Wedding Of</div>
+  <h1 class="serif">Malik <span class="amp">&</span> Kiki</h1>
+  <div class="cover-date">22 · 03 · 2027</div>
+  <div class="guest">Kepada Yth.<strong id="guestName">Bapak/Ibu/Saudara/i</strong><span class="note">Dengan hormat kami mengundang Anda</span></div>
+  <button class="btn" onclick="openInvitation()">Buka Undangan</button>
+ </div>
+</section>
+<div id="invitation" class="hidden">
+<section class="section">
+ <div class="kicker">Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
+ <h2>Dengan Memohon Rahmat & Ridho Allah SWT</h2>
+ <p class="intro">Dengan penuh rasa syukur, kami bermaksud menyelenggarakan acara pernikahan putra-putri kami. Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+ <div class="ornament">❦</div>
+ <div class="names">
+  <div class="person"><div class="kicker">Mempelai Pria</div><h3>Malik Abdul Azis</h3><p>Putra dari<br>Bapak Kaerudin (Alm.)<br>& Ibu Karsiwen</p></div>
+  <div class="person"><div class="kicker">Mempelai Wanita</div><h3>Kiki Istikomah</h3><p>Putri dari<br>Bapak Hadi Suseno Karsim<br>& Ibu Umiyati</p></div>
+ </div>
+</section>
+<section class="section">
+ <div class="kicker">Save The Date</div><h2>Hari Bahagia Kami</h2>
+ <div class="event-card"><div class="kicker">Akad Nikah</div><h3>Senin</h3><div class="date-big">22 Maret 2027</div><div class="address">Dusun Kedungsalam RT 03/02, Desa Cikedondong,<br>Kecamatan Bantarsari, Kabupaten Cilacap</div><div class="actions"><a class="btn" href="https://maps.app.goo.gl/1m3yfLekjUPpNRtNA" target="_blank" rel="noopener">Lihat Lokasi</a></div></div>
+ <div class="kicker">Menuju Hari Bahagia</div><div class="countdown"><div><b id="days">0</b><small>HARI</small></div><div><b id="hours">0</b><small>JAM</small></div><div><b id="minutes">0</b><small>MENIT</small></div><div><b id="seconds">0</b><small>DETIK</small></div></div>
+</section>
+<section class="section">
+ <div class="kicker">Konfirmasi Kehadiran</div><h2>RSVP</h2><p class="intro">Mohon bantu kami mengetahui rencana kehadiran Anda.</p>
+ <form class="form" id="rsvpForm"><label>Nama</label><input id="rsvpName" required placeholder="Nama Anda"><label>Konfirmasi</label><select id="attendance"><option value="Hadir">Insyaallah hadir</option><option value="Tidak dapat hadir">Mohon maaf, belum dapat hadir</option></select><label>Jumlah tamu</label><select id="guestCount"><option>1</option><option>2</option><option>3</option><option>4</option></select><button class="btn" type="submit">Kirim Konfirmasi via WhatsApp</button><p class="note">Tombol ini akan membuka WhatsApp dengan pesan konfirmasi. Pengiriman belum tersimpan ke database.</p></form>
+</section>
+<section class="section">
+ <div class="kicker">Doa & Ucapan</div><h2>Buku Tamu</h2><p class="intro">Tinggalkan doa dan ucapan terbaik untuk kami.</p>
+ <form class="form" id="wishForm"><label>Nama</label><input id="wishName" required placeholder="Nama Anda"><label>Ucapan</label><textarea id="wishText" required placeholder="Tuliskan doa dan ucapan..."></textarea><button class="btn" type="submit">Kirim Ucapan via WhatsApp</button><p class="note">Ucapan akan diteruskan melalui WhatsApp, belum tersimpan sebagai buku tamu online.</p></form>
+</section>
+<section class="section">
+ <div class="kicker">Wedding Gift</div><h2>Tanda Kasih</h2><p class="intro">Doa restu Anda merupakan hadiah terindah bagi kami. Namun jika ingin berbagi tanda kasih, silakan gunakan tombol berikut.</p>
+ <button class="btn" onclick="document.getElementById('giftModal').classList.add('show')">Buka Amplop Digital</button>
+ <p class="note">Nomor rekening dapat diisi sebelum undangan dibagikan.</p>
+</section>
+<section class="section">
+ <div class="kicker">Our Moment</div><h2>Galeri</h2><div class="gallery" id="gallery">
+  <img src="assets/foto-cover.jpeg" alt="Foto pasangan" onerror="this.style.display='none'">
+  <img src="assets/foto-pasangan-1.jpeg" alt="Foto pasangan" onerror="this.style.display='none'">
+ </div>
+ <p class="note">Foto dapat diganti dengan foto pilihan terbaru.</p>
+</section>
+<footer class="footer">Merupakan suatu kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.<br><span class="serif" style="font-size:25px;color:#98794c">Malik & Kiki</span><br>Wassalamu’alaikum Warahmatullahi Wabarakatuh</footer>
+</div>
+</main>
+<button class="music" id="musicBtn" title="Putar musik" onclick="toggleMusic()">♫</button>
+<audio id="audio" loop><source src="assets/aku-dan-kamu.mp3" type="audio/mpeg"></audio>
+<div class="modal" id="giftModal"><div class="modal-box"><button class="close" onclick="document.getElementById('giftModal').classList.remove('show')">×</button><div class="kicker">Wedding Gift</div><h2 class="serif" style="font-size:38px;color:#98794c">Terima Kasih</h2><p class="note">Silakan lengkapi nomor rekening dan nama pemilik sebelum undangan dibagikan.</p><div class="bank"><b>MANDIRI</b><div>Nomor rekening: <strong>[ISI NOMOR REKENING]</strong></div><div>Atas nama: [ISI NAMA PEMILIK]</div></div><div class="bank"><b>BCA</b><div>Nomor rekening: <strong>[ISI NOMOR REKENING]</strong></div><div>Atas nama: [ISI NAMA PEMILIK]</div></div></div></div>
+<script>
+const params=new URLSearchParams(location.search);
+const recipient=params.get('to');
+if(recipient){document.getElementById('guestName').textContent=recipient;document.getElementById('rsvpName').value=recipient;document.getElementById('wishName').value=recipient;}
+function openInvitation(){document.getElementById('invitation').classList.remove('hidden');document.getElementById('cover').style.display='none';window.scrollTo({top:0,behavior:'smooth'});}
+const target=new Date('2027-03-22T00:00:00+07:00').getTime();
+function tick(){let d=Math.max(0,target-Date.now());document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=Math.floor(d%86400000/3600000);document.getElementById('minutes').textContent=Math.floor(d%3600000/60000);document.getElementById('seconds').textContent=Math.floor(d%60000/1000);}
+tick();setInterval(tick,1000);
+const waNumber=''; // Isi nomor WhatsApp panitia/keluarga dengan kode negara, tanpa tanda +.
+function sendWA(message){if(!waNumber){alert('Nomor WhatsApp tujuan belum diatur. Silakan isi variabel waNumber pada index.html.');return;}window.open('https://wa.me/'+waNumber+'?text='+encodeURIComponent(message),'_blank');}
+document.getElementById('rsvpForm').addEventListener('submit',e=>{e.preventDefault();sendWA('Konfirmasi RSVP Undangan Malik & Kiki%0A'+'Nama: '+document.getElementById('rsvpName').value+'%0A'+'Kehadiran: '+document.getElementById('attendance').value+'%0A'+'Jumlah tamu: '+document.getElementById('guestCount').value);});
+document.getElementById('wishForm').addEventListener('submit',e=>{e.preventDefault();sendWA('Ucapan untuk Malik & Kiki%0A'+'Nama: '+document.getElementById('wishName').value+'%0A'+'Ucapan: '+document.getElementById('wishText').value);});
+function toggleMusic(){const a=document.getElementById('audio');const b=document.getElementById('musicBtn');if(a.paused){a.play().then(()=>b.textContent='Ⅱ').catch(()=>alert('Tambahkan file audio berlisensi bernama assets/aku-dan-kamu.mp3 terlebih dahulu.'));}else{a.pause();b.textContent='♫';}}
+</script>
+</body></html>
